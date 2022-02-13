@@ -13,10 +13,6 @@ end
 
 class RailsMentor < Mentor # Mentor クラスを継承
 
-  def name
-    super
-  end
-
   def job
     puts "#{self.name}です。私はRubyとRailsでWebアプリケーションを作ります。"
   end
